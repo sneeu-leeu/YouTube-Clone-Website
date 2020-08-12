@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+    background-color: white;
+}
+.homeBar {
+    width: 100%;
+    overflow: auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.searchLink {
+    display: flex;
+    width: 65%;
+    align-items: center;
+    padding-left: 10%;
+}
+.searchBar {
+    width: 75%;
+    height: 25px;
+    
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.fab{
+    color: red;
+    font-size: 35px;
+}
+.fas{
+    padding-right: 30px;
+    font-size: 25px;
+}
