@@ -10,6 +10,7 @@ nav {
     justify-content: space-between;
     align-items : center;
     background-color: white;
+
 }
 .homeBar {
     width: 100%;
@@ -46,4 +47,11 @@ nav {
 .fas{
     padding-right: 30px;
     font-size: 25px;
+}
+.container {
+    display: flex;
+    flex-direction: none;
+}
+.under-vid {
+    background-color: white;
 }
