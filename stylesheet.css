@@ -32,8 +32,6 @@ justify-content: space-between;
     height: 25px;
     
 }
-
-
 .icons {
     display: flex;
     align-items: center;
@@ -67,18 +65,16 @@ justify-content: space-between;
     
 }
 .userData {
-  
  background-color: white; 
+ width:100%;
 }
 #subscribe {
     background-color: red;
+    color:white;
 }
 .channel {
     display: flex;
     flex-direction: none;
-
-    
-    
 }
 .channel1 {
     float: left;
@@ -86,13 +82,24 @@ justify-content: space-between;
 .channel2 {
     float: left;
 }
-.subs {
-    display: flex;
-}
 
 .channel3 {
     float: right;
-    padding-right: 50%;
+    padding-left: 38%;
       
 }
-
+.small{
+    border-color:black;
+    border-style:solid ;
+    border:2px;
+}
+.share{
+    display: inline-flex;
+}
+.share-right{
+    display: flex;
+    padding-left:70%;
+}
+.share-left{
+    display: flex;
+}
