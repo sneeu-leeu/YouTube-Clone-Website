@@ -58,7 +58,11 @@ nav {
 }
 .userData {
     display: flex;
+    align-content: center;
 
+}
+.UserData-2 {
+    float: right;
 }
 #subscribe {
     background-color: red;
