@@ -63,15 +63,13 @@ justify-content: space-between;
 .left-container{
     width: 70%;
     float:left;
-
+margin-right: 5px;
 }
 .userData {
- margin-left: 10px;  
+  
  background-color: white; 
 }
 #subscribe {
     background-color: red;
-    
-
 }
 
