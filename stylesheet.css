@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding:0;
     background-color: grey;
-    overflow:hidden;
     }
 
 nav {
@@ -10,6 +9,7 @@ nav {
     justify-content: space-between;
     align-items : center;
     background-color: white;
+   
 
 }
 .homeBar {
@@ -50,8 +50,21 @@ nav {
 }
 .container {
     display: flex;
-    flex-direction: none;
+    justify-content: space-between;
+    
 }
-.under-vid {
+.under_vid {
     background-color: white;
+}
+.userData {
+    display: flex;
+
+}
+#subscribe {
+    background-color: red;
+    color: white;
+
+}
+.display_el {
+    display: flex;
 }
