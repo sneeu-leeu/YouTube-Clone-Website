@@ -50,21 +50,32 @@ justify-content: space-between;
 }
 .container {
     display: flex;
-    justify-content: space-between;
+    display: -webkit-flex;
+    justify-content: space-around;
+    margin:0 5px 0 5px;;
     
 }
+.right-container{
+    float:right;
+    align-items: center;
+    width: 35%;
+}
+.left-container{
+    width: 70%;
+    float:left;
+
+}
 .under_vid {
-    background-color: white;
+    background-color: white; 
 }
 .userData {
-    display: flex;
-
+ margin-left: 10px;   
+width:60%;
+background-color: white;;
 }
 #subscribe {
     background-color: red;
     color: white;
 
 }
-.display_el {
-    display: flex;
-}
+

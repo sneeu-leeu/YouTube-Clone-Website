@@ -12,8 +12,8 @@
     
 </head>
 <body>
+    <header>
     <nav class="homeBar">
-        
         <div class="logo">
             <i class="fab fa-youtube"></i>
             <h2>YouTube</h2>
@@ -23,58 +23,55 @@
             <input type="text" name="contentInput" class="searchBar" placeholder="search">
             <button class="butn"><i class="fas fa-search"></i></button>
         </div>
-        
+        <!--
         <div class="icons">
             <i class="fas fa-upload"></i>
             <i class="fas fa-comment-dots"></i>
             <i class="fas fa-bong"></i>
             <i class="fas fa-user-circle"></i>
         </div>
+    -->
+        <div class="icons">
+            <i class="fas fa-video icon"></i>
+            <i class="fas fa-th icon"></i>
+            <i class="nav-icon fas fa-bell fa-lg"></i>
+            <i class="fas fa-user icon"></i>
+          </div>
 
     </nav>
+    </header>
+    
 <div class="container">
-
-  <main>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/SpeDK1TPbew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    
-    <section class="under_vid">
-
-        <h2>The Rise of Open-Source Software</h2>
+    <main class="left-container">
+        <iframe width="95%" height="387" src="https://www.youtube.com/embed/SpeDK1TPbew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <div class="userData" >
-
             <div class="channel">
-                <img src="images/propic.jpg" alt="profile picture">
-            </div>
-
-            <div class="channel_1">
-                    <h3>CNBC</h3>
-                    <div class="display_el">
-                        <button id="subscribe">SUBSCIBE</button>
-                    <p>3.8M</p>
+                <h2>The Rise of Open-Source Software</h2>
+                <div class="channel-data">
+                   <img src="images/propic.jpg" alt="profile picture">3.8M
                 </div>
-            </div>
-            
-            <div class="channel_2">
-                <h4>865,078 views • 11 Dec 2019</h4>
-            </div>
-        </div>
 
-        </div class="UserData-2">
-
-
-
-        </div>
-    </section>
-
+                        <button id="subscribe">SUBSCRIBE</button>
+                        <i class="far fa-fa-bell"></i>
+                    <div class="video-stat">
+                        <i class="title-icon fas fa-thumbs-up">115K</i>
+                        <i class="title-icon fas fa-thumbs-down">1.1K</i>
+                        <i class="title-icon fas fa-share"></i>
+                        <i class="title-icon fas fa-save"></i>
     
-
-  </main>
-  <aside>
-
-    <a href="#" class="first-img-aside">
+            </div>
+            <hr/>
+            <div class="show more"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                praesentium in earum dolores? Ducimus laboriosam illum sunt
+                repellat, dolorum fugit libero omnis, quis veritatis labore nobis
+                voluptate pariatur delectus molestias!</p></div>
+        </div>
+    </main>
+  
+  
+    <aside class="right-container">
+      
         <a href="#">
             <img class="aside__video" src="images/nature.jpg" alt="Next video">
         </a>
@@ -100,8 +97,5 @@
     </aside>
 
 </div>
-    
 </body>
-    
-
 </html>
