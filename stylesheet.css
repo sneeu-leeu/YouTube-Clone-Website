@@ -43,8 +43,8 @@ justify-content: space-between;
     font-size: 35px;
 }
 .fas{
-    padding-right: 30px;
-    font-size: 25px;
+    padding: 0 5px 0 5px ;
+    font-size: 15px;
 }
 .container {
     display: flex;
@@ -94,14 +94,16 @@ justify-content: space-between;
     border:2px;
 }
 .share{
-    display: inline-flex;
+    display: flex;
 }
 .share-right{
     display: flex;
     padding-left:70%;
+    
 }
 .share-left{
     display: flex;
+    
 }
 .showMore {
     background-color : white;
