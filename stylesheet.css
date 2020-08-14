@@ -57,6 +57,7 @@ justify-content: space-between;
     float:right;
     align-items: center;
     width: 35%;
+    overflow: 0;
 }
 .left-container{
     width: 70%;
@@ -128,4 +129,21 @@ float:right;
 .img{
 width: 50%;
 float:left;
+}
+.side-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 40px;
+}
+.image-and-text {
+    display: flex;
+    width: 30%;
+    height: 20%;
+}
+.aside__video {
+    
+}
+.image-s {
+    
 }
