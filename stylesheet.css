@@ -26,6 +26,7 @@ justify-content: space-between;
     width: 65%;
     align-items: center;
     padding-left: 10%;
+    flex-wrap: wrap;
 }
 .searchBar {
     width: 75%;
@@ -36,7 +37,8 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
+    height: 25px;
+    padding-right: 10px;
 }
 .fab{
     color: red;
@@ -44,7 +46,8 @@ justify-content: space-between;
 }
 .fas{
     padding: 0 5px 0 5px ;
-    font-size: 15px;
+    font-size: 20px;
+    height: 25px;
 }
 .container {
     display: flex;
@@ -99,7 +102,7 @@ justify-content: space-between;
 }
 .share-right{
     display: flex;
-    padding-left:70%;
+    padding-left:65%;
     
 }
 .share-left{
@@ -114,10 +117,9 @@ justify-content: space-between;
 .btn {
     color: gray;
     width: 90%;
-    height: 95%;
+    height: 100%;
     background-color: white;
     border: none;
-    
 
 }
 .Up-Next{
@@ -126,6 +128,7 @@ float: left;
 .Auto-P{
 float:right;
 }
+
 .img{
 width: 50%;
 float:left;
@@ -138,12 +141,26 @@ float:left;
 }
 .image-and-text {
     display: flex;
-    width: 30%;
-    height: 20%;
+    height: auto;
+    width:90%;
+    flex: wrap;
+    flex-direction: row;
 }
-.aside__video {
+figure{
+    width: 250px;
     
+    
+}
+img{
+    width:100%;
 }
 .image-s {
-    
+    height:100%;
+width:100%;
+
+}
+
+img.aside_vide0{
+height:80%;
+
 }
