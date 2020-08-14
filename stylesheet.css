@@ -32,8 +32,6 @@ justify-content: space-between;
     height: 25px;
     
 }
-
-
 .icons {
     display: flex;
     align-items: center;
@@ -45,30 +43,89 @@ justify-content: space-between;
     font-size: 35px;
 }
 .fas{
-    padding-right: 30px;
-    font-size: 25px;
+    padding: 0 5px 0 5px ;
+    font-size: 15px;
 }
 .container {
     display: flex;
-    justify-content: space-between;
+    display: -webkit-flex;
+    justify-content: space-around;
+    margin:0 2px 0 2px;;
     
 }
-.under_vid {
-    background-color: white;
+.right-container{
+    float:right;
+    align-items: center;
+    width: 35%;
+}
+.left-container{
+    width: 70%;
+    float:left;
+    margin-right: 20px;
+    
 }
 .userData {
-    display: flex;
-    align-content: center;
-
-}
-.UserData-2 {
-    float: right;
+ background-color: white; 
+ width:100%;
 }
 #subscribe {
     background-color: red;
-    color: white;
+    color:white;
+}
+.channel {
+    display: flex;
+    flex-direction: none;
+}
+.channel1 {
+    float: left;
+}
+.channel2 {
+    float: left;
+}
+
+.channel3 {
+    float: right;
+    padding-left: 38%;
+      
+}
+.small{
+    border-color:black;
+    border-style:solid ;
+    border:2px;
+}
+.share{
+    display: flex;
+}
+.share-right{
+    display: flex;
+    padding-left:70%;
+    
+}
+.share-left{
+    display: flex;
+    
+}
+.showMore {
+    background-color : white;
+    width: 100%;
+    margin-top: 20px;
+}
+.btn {
+    color: gray;
+    width: 90%;
+    height: 95%;
+    background-color: white;
+    border: none;
+    
 
 }
-.display_el {
-    display: flex;
+.Up-Next{
+float: left;
+}
+.Auto-P{
+float:right;
+}
+.img{
+width: 50%;
+float:left;
 }
