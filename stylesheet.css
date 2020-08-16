@@ -1,0 +1,207 @@
+body {
+    margin: 10px;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.homeBar {
+    width: 100%;
+    overflow: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.searchLink {
+    display: flex;
+    width: 65%;
+    align-items: center;
+    padding-left: 10%;
+    flex-wrap: wrap;
+}
+
+.searchBar {
+    width: 75%;
+    height: 25px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.fab {
+    color: red;
+    font-size: 35px;
+}
+
+.fas {
+    padding: 0 5px 0 5px;
+    font-size: 20px;
+    height: 25px;
+}
+
+.container {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    margin: 0 2px 0 2px;
+    ;
+}
+
+.right-container {
+    float: right;
+    align-items: center;
+    width: 35%;
+    overflow: 0;
+}
+
+.left-container {
+    width: 70%;
+    float: left;
+    margin-right: 20px;
+}
+
+.userData {
+    background-color: white;
+    width: 100%;
+}
+
+#subscribe {
+    background-color: red;
+    color: white;
+}
+
+.channel {
+    display: flex;
+    flex-direction: none;
+}
+
+.channel1 {
+    float: left;
+}
+
+.channel2 {
+    float: left;
+}
+
+.channel3 {
+    float: right;
+    padding: 5% 1px 0 50%;
+}
+
+.small {
+    border-color: black;
+    border-style: solid;
+    border: 2px;
+}
+
+.share {
+    display: flex;
+}
+
+.share-right {
+    display: flex;
+    padding-left: 60%;
+}
+
+.share-left {
+    display: flex;
+}
+
+.showMore {
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn {
+    color: gray;
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    border: none;
+}
+
+.Up-Next {
+    float: left;
+}
+
+.Auto-P {
+    float: right;
+}
+
+.img {
+    width: 50%;
+    float: left;
+}
+
+.side-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: -5px;
+}
+
+.Up-Next {
+    padding-left: 40px;
+}
+
+.Auto-P {
+    padding-right: 20px;
+    justify-content: space-evenly;
+}
+
+.side-down-inside-content {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.image-and-text {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 40px;
+    border: 2px black;
+}
+
+.views-name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+figure {
+    width: 230px;
+}
+
+img {
+    width: 110%;
+}
+
+.image-s {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    padding-top: 20px;
+}
+
+img.aside_vide0 {
+    height: 100%;
+    padding-left: 0%;
+}
