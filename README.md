@@ -4,7 +4,7 @@ This is a readme file for our first project at Microverse. We cloned a YouTube p
 
 ## Live Demo
 ---
-[YouTube Clone](https://happy-bardeen-887a00.netlify.app/_"Project One")
+[YouTube Clone](https://happy-bardeen-887a00.netlify.app/ "Project One")
 
 ## Built With
 ---
