@@ -14,11 +14,13 @@ nav {
 .homeBar {
     width: 100%;
     overflow: auto;
+
 }
 
 .logo {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .searchLink {
@@ -41,7 +43,7 @@ nav {
     height: 25px;
     padding-right: 10px;
 }
-
+ 
 .fab {
     color: red;
     font-size: 35px;
@@ -114,7 +116,7 @@ nav {
 
 .share-right {
     display: flex;
-    padding-left: 60%;
+    padding-left: 55%;
 }
 
 .share-left {
@@ -185,7 +187,8 @@ nav {
 }
 
 figure {
-    width: 230px;
+    width: 200px;
+    
 }
 
 img {
