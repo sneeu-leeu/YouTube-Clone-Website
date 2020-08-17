@@ -1,4 +1,4 @@
-# Project_1
+# YouTube Clone Project
 
 This is a readme file for our first project at Microverse. We cloned a YouTube page using only CSS and HTML.
 
