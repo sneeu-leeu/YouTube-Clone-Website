@@ -91,11 +91,7 @@ nav {
     flex-direction: none;
 }
 
-.channel1 {
-    float: left;
-}
-
-.channel2 {
+.channel1.channel2 {
     float: left;
 }
 
