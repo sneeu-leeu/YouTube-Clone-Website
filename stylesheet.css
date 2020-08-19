@@ -109,7 +109,10 @@ nav {
 .share {
     display: flex;
 }
-
+.share-btn{
+    background-color:white;
+    border-style: none;
+}
 .share-right {
     display: flex;
     padding-left: 55%;
