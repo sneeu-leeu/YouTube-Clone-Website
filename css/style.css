@@ -43,7 +43,7 @@ nav {
 
 .searchBar {
     width: 75%;
-    height: 25px;
+    height: 28px;
 }
 
 .icons {
@@ -59,10 +59,11 @@ nav {
     font-size: 35px;
 }
 
+.icons,
 .fas {
     padding: 0 5px 0 5px;
     font-size: 20px;
-    height: 25px;
+    
 }
 
 .container {
