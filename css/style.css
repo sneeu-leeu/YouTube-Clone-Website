@@ -102,7 +102,8 @@ nav {
     flex-direction: none;
 }
 
-.channel1.channel2 {
+.channel1,
+.channel2 {
     float: left;
 }
 
@@ -117,7 +118,8 @@ nav {
     border: 2px;
 }
 
-.share {
+.share,
+.share-right {
     display: flex;
 }
 .share-btn{
@@ -125,8 +127,6 @@ nav {
     border-style: none;
 }
 .share-right {
-    display: flex;
-    
     padding-left:65%;
 
 }
