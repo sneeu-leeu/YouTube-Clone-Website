@@ -1,0 +1,192 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    width: 99.5%;
+}
+.butn {
+    height:34px;
+}
+.homeBar {
+    overflow: auto;
+
+}
+
+.logo {
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+    height:50%;
+}
+
+.searchLink {
+    width: 65%;
+    padding-left: 10%;
+    flex-wrap: wrap;
+}
+
+.searchBar {
+    width: 75%;
+    height: 28px;
+}
+
+.icons {
+    justify-content: flex-end;
+    height: 25px;
+    padding-right: 10px;
+}
+ 
+.fab {
+    color: red;
+    font-size: 35px;
+}
+
+.icons,
+.fas {
+    padding: 0 5px 0 5px;
+    font-size: 20px;
+    
+}
+
+.container {
+    display: -webkit-flex;
+    justify-content: space-around;
+    margin: 0;
+    
+}
+
+.right-container {
+    float: right;
+    width: 31.8%;
+    overflow: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.left-container {
+    width: 67%;
+    margin-right: 0;
+    padding: 0;
+}
+
+iframe {
+    height: 40%;
+}
+
+#subscribe {
+    background-color: red;
+    color: white;
+}
+
+.channel3 {
+    float: right;
+    padding: 5% 1px 0 50%;
+}
+
+.small {
+    border-color: black;
+    border-style: solid;
+    border: 2px;
+}
+
+.share-btn{
+    border-style: none;
+}
+.share-right {
+    padding-left:65%;   
+}
+.title-icon{
+    font-size:15px;
+}
+
+
+.showMore {
+    margin-top: 20px;
+}
+
+.btn {
+    color: gray;
+    width: 90%;
+    border: none;
+}
+
+
+.side-content {
+    flex-direction: column;
+    padding-top: -5px;
+}
+
+.Up-Next {
+    padding-left: 32px;
+}
+
+.Auto-P {
+    padding-right: 4px;
+    justify-content: space-evenly;
+    padding-left: 35%;
+}
+
+.side-down-inside-content {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.image-and-text {
+    flex-direction: row;
+    padding-right: 40px;
+    border: 2px black;
+    font-size: 15px;
+}
+
+.views-name {
+    flex-direction: column;
+    padding-top: 0;
+}
+
+figure {
+    width: 200px;
+}
+
+img {
+    width: 110%;
+}
+
+.text {
+    padding-top: 20px;
+}
+
+.d-flex { 
+    display: flex;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.vid-txt {
+    font-size: 12px;
+}
+
+.f-lft {
+    float: left;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.AL-centre {
+    align-items: center;
+}
+
+.b-clr {
+    background-color: white;
+}
