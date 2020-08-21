@@ -15,20 +15,20 @@
 
 <body>
     <header>
-        <nav class="homeBar">
+        <nav class="homeBar d-flex b-clr">
             <div class="menu">
                 <i class="fas fa-bars"></i>
             </div>
-            <div class="logo">
+            <div class="logo d-flex AL-centre">
                 <img src="images/youtube.png" alt="youtube-logo">
             </div>
 
-            <div class="searchLink">
+            <div class="searchLink d-flex AL-centre">
                 <input type="text" name="contentInput" class="searchBar" placeholder="search">
                 <button class="butn"><i class="fas fa-search"></i></button>
             </div>
         
-            <div class="icons">
+            <div class="icons d-flex AL-centre">
                 <i class="fas fa-video icon"></i>
                 <i class="fas fa-bell "></i>
                 <i class="fas fa-user icon"></i>
@@ -38,18 +38,18 @@
         </nav>
     </header>
 
-    <div class="container">
-        <main class="left-container">
-            <iframe width="744" height="387" src="https://www.youtube.com/embed/SpeDK1TPbew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container d-flex">
+        <main class="left-container f-lft">
+            <iframe class="w-100" src="https://www.youtube.com/embed/SpeDK1TPbew"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <section class="userData">
+            <div class="userData b-clr">
                 <h2>The Rise of Open-Source Software</h2>
-                <div class="channel">
-                    <div class="channel1">
+                <div class="channel d-flex">
+                    <div class="channel1 f-lft">
                         <img src="images/propic.jpg" alt="profile picture">
                     </div>
 
-                    <div class="channel2">
+                    <div class="channel2 f-lft">
                         <div class="channel2-top">
                             <h4>Tech News Today</h4>
                         </div>
@@ -65,23 +65,23 @@
                 </div>
                 
                 
-                <div class="share">
+                <div class="share d-flex">
                     <div class="share-left">
 
                         <i class="title-icon fas fa-plus"><small>add</small></i>
-                       <button class="share-btn"><i class="title-icon fas fa-share">share</i></button>
+                       <button class="share-btn b-clr"><i class="title-icon fas fa-share">share</i></button>
                     </div>
 
-                    <div class="share-right">
+                    <div class="share-right d-flex">
                         <i class="title-icon fas fa-thumbs-up">115K</i>
                         <i class="title-icon fas fa-thumbs-down">1.1K</i>
                         <i class="title-icon fas fa-save"></i>
                     </div>
                 </div>
-            </section>
+            </div>
 
 
-            <section class="showMore">
+            <div class="showMore b-clr">
 
                 <strong>Published on August 17, 2020</strong>
                 <p>Open-source software powers nearly all the world’s major companies. This software is freely available, and is developed collaboratively, maintained by a broad network that includes everyone from unpaid volunteers to employees at competing
@@ -91,8 +91,8 @@
 
                 <hr/>
 
-                <button class="btn">show more</button>
-            </section>
+                <button class="btn b-clr">show more</button>
+            </div>
 
 
         </main>
@@ -100,10 +100,10 @@
 
         <aside class="right-container">
 
-            <section class="side-content">
-                <div class="side-up-content">
+            <div class="side-content d-flex b-clr">
+                <div class="side-up-content d-flex">
 
-                    <div class="Up-Next">
+                    <div class="Up-Next f-lft">
                         <p>Up Next</p>
 
                     </div>
@@ -117,26 +117,26 @@
                 <div class="side-down-content">
                     <div class="side-down-inside-content">
 
-                        <div class="image-and-text">
-                            <div class="image-s">
+                        <div class="image-and-text d-flex w-100">
+                            <div class="image-s w-100">
                                 <figure>
                                     <a href="#">
                                         <img class="aside__video" src="images/Yoda.jpg" alt="Next video">
                                     </a>
                                 </figure>
                             </div>
-                            <figcaption class="text">
-                                <strong>Yoda vs Darth Sidious-Fight Scene | Star Wars Revenge of the Sith (2005) Movie Clip 4K</strong>
+                            <div class="text">
+                                <strong class="vid-txt">Yoda vs Darth Sidious-Fight Scene |Revenge of the Sith</strong>
                                 <div class="views-name">
                                     <small>The Darth</small>
                                     <small>500k views</small>
                                 </div>
-                            </figcaption>
+                            </div>
                         </div>
 
                         <hr style="margin:25px" />
 
-                        <div class="image-and-text">
+                        <div class="image-and-text d-flex w-100">
                             <div class="image-s">
                                 <figure>
                                     <a href="#">
@@ -144,16 +144,16 @@
                                     </a>
                                 </figure>
                             </div>
-                            <figcaption class="text">
-                                <strong>Next Gen Farming Without Soil and 90% Less Water|GRATEFUL</strong>
+                            <div class="text">
+                                <strong class="vid-txt">Farming Without Soil and 90% Less Water</strong>
                                 <div class="views-name">
                                     <small>The Grateful</small>
                                     <small>450k views</small>
                                 </div>
-                            </figcaption>
+                            </div>
                         </div>
 
-                        <div class="image-and-text">
+                        <div class="image-and-text d-flex w-100">
                             <div class="image-s">
                                 <figure>
                                     <a href="#">
@@ -161,16 +161,16 @@
                                     </a>
                                 </figure>
                             </div>
-                            <figcaption class="text">
-                                <strong>Nature's Splendor a calming, tranquil visit to National Parks</strong>
+                            <div class="text">
+                                <strong class="vid-txt">A tranquil visit to National Parks</strong>
                                 <div class="views-name">
                                     <small>The National Park</small>
                                     <small>650k views</small>
                                 </div>
-                            </figcaption>
+                            </div>
                         </div>
 
-                        <div class="image-and-text">
+                        <div class="image-and-text d-flex w-100">
                             <div class="image-s">
                                 <figure>
                                     <a href="#">
@@ -178,16 +178,16 @@
                                     </a>
                                 </figure>
                             </div>
-                            <figcaption class="text">
-                                <strong>Ben Howard - Promise | 28-02-2015  </strong>
+                            <div class="text">
+                                <strong class="vid-txt">Ben Howard - Promise | 28-02-2015  </strong>
                                 <div class="views-name">
                                     <small>The Adventure Park</small>
                                     <small>560k views</small>
                                 </div>
-                            </figcaption>
+                            </div>
                         </div>
 
-                        <div class="image-and-text">
+                        <div class="image-and-text d-flex w-100">
                             <div class="image-s">
                                 <figure>
                                     <a href="#">
@@ -195,19 +195,19 @@
                                     </a>
                                 </figure>
                             </div>
-                            <figcaption class="text">
-                                <strong>Tiny Houses on the Open Road</strong>
-                                <div class="views-name">
+                            <div class="text">
+                                <strong class="vid-txt">Tiny Houses on the Open Road</strong>
+                                <div class="views-name d-flex">
                                     <small>The Splendour</small>
                                     <small>800k views</small>
                                 </div>
-                            </figcaption>
+                            </div>
                         </div>
 
                     </div>
 
                 </div>
-            </section>
+            </div>
         </aside>
 
     </div>
