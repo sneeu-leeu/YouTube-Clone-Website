@@ -1,6 +1,6 @@
 
 body {
-    margin: 10px;
+    margin: 0;
     padding: 0;
     background-color: whitesmoke;
     font-family: Roboto, Arial, sans-serif;
@@ -59,20 +59,24 @@ nav {
 .container {
     display: -webkit-flex;
     justify-content: space-around;
-    margin: 0 2px 0 2px;
+    margin: 0;
     
 }
 
 .right-container {
     float: right;
-    width: 32%;
+    width: 31.8%;
     overflow: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .left-container {
-    width: 68%;
+    width: 67%;
     margin-right: 0;
+    padding: 0;
 }
+
 iframe {
     height: 40%;
 }
